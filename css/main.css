@@ -1,3 +1,9 @@
+/* colours
+Red - #dd4907		221, 73, 7
+Yellow - #d9a60d		217, 166, 13
+*/
+
+
 html {
 	box-sizing: border-box;
 }
@@ -5,3 +11,49 @@ html {
 *, *::before, *::after {
  	box-sizing: inherit;
  }
+
+body {
+	margin: 0;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+header {
+	background-color: #cc0000;
+
+}
+
+.top-nav {
+	width: 100%;
+}
+
+.top-ul {
+	padding: 0;
+	margin: 0;
+}
+
+.top-li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	border: solid 1px black;
+	padding: 1em 0;
+}
+
+.top-a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+h2 {
+	clear: both;
+}
+
+main {
+	clear: both;
+}
