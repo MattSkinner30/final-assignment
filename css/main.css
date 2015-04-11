@@ -1,11 +1,14 @@
 /* colours
 Red - #dd4907		221, 73, 7
 Yellow - #d9a60d		217, 166, 13
+font-family: 'Open Sans', sans-serif;
+font-family: 'Laila', serif;
 */
 
 
 html {
 	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -26,6 +29,8 @@ h1 {
 	padding: 0.5em;
 	position: relative;
 	background-color: rgba(255, 0, 0 ,0.5);
+	font-family: 'Laila', serif;
+
 }
 
 h1:after {
@@ -59,16 +64,26 @@ header {
 	display: inline-block;
 	width: 25%;
 	float: left;
-	border: solid 1px black;
-	padding: 1em 0;
-	background-color: #cc0000;
+	display: inline-block;
 	text-align: center;
+	background-image: linear-gradient(to top, rgba())
 }
 
 .top-a {
 	color: white;
 	text-align: center;
 	text-decoration: none;
+	background-color: darkred;
+	margin: 0;
+	width: 100%;
+	padding: 1em;
+	margin: 0;
+	display: inline-block;
+	border: solid 1px black;
+}
+	
+.top-a:hover {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent)
 }
 
 .banner-div {
@@ -81,7 +96,7 @@ position: relative;
 }
 
 .banner-p {
-	font-size: 2rem;
+	font-size: 1.25rem;
 	color: white;
 	background-image: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
 	text-align: center;
@@ -89,6 +104,8 @@ position: relative;
 	bottom: 0%;
 	width: 100%;
 	padding-left: 0;
+	padding-top: 1em;
+	padding: 1em o;
 	margin: 0;
 }
 
@@ -98,5 +115,20 @@ h2 {
 }
 
 main {
+	clear: both;
+}
+
+.left-contact {
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
+
+.right-contact {
+	float: right;
+	clear: right;
+}
+
+footer {
 	clear: both;
 }
