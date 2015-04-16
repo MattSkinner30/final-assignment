@@ -1,6 +1,7 @@
 /* colours
-Red - #dd4907		221, 73, 7
-Yellow - #d9a60d		217, 166, 13
+Red - #A00000		221, 73, 7
+Dark Red - #5F0000
+White BG - #fffcdf
 font-family: 'Open Sans', sans-serif;
 font-family: 'Laila', serif;
 */
@@ -28,11 +29,12 @@ h1 {
 	color: yellow;
 	padding: 0.5em;
 	position: relative;
-	background-color: rgba(255, 0, 0 ,0.5);
+	background: radial-gradient(#A00000, #5F0000);
 	font-family: 'Laila', serif;
 
 }
 
+/*
 h1:after {
 	content : "";
     display: block;
@@ -44,6 +46,7 @@ h1:after {
     height: 100%;
     z-index: -1;
 }
+*/
 
 header {
 
@@ -92,7 +95,7 @@ position: relative;
 
 .banner	{
 	width: 100%;
-	margin-bottom: -4px;
+	margin-bottom: -5px;
 }
 
 .banner-p {
@@ -112,6 +115,17 @@ position: relative;
 h2 {
 	clear: both;
 	padding-left: 1em;
+	background: radial-gradient(#A00000, #5F0000);
+	color: white;
+	font-family: 'Laila' serif;
+	box-shadow: 0px 5px 15px black;
+	margin: 0;
+	text-align: center;
+}
+
+
+.menu-img {
+	width: 100%;
 }
 
 main {
@@ -131,4 +145,14 @@ main {
 
 footer {
 	clear: both;
+	list-style-type: none;
+	color: black;
+}
+
+nav ul li {
+	colour: Black;
+	display: inline-block;
+	width: 20%;
+	float: left;
+	text-align: center;
 }
