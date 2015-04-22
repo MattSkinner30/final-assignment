@@ -175,6 +175,7 @@ main {
 .map-div{
 	background-image: url("../images/map.jpg") no-repeat;
 	position: relative;
+	margin-bottom: 1em;
 }
 
 .map-div::before{
@@ -185,6 +186,23 @@ main {
 	position: absolute;
 }
 
+.map-button {
+	background: radial-gradient(#A00000, #5F0000);	color: #fffcdf;
+	border-radius: 1em;
+	padding: 0.5em 1em;
+	display: block;
+	text-align: center;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	bottom: 10%;
+
+}
+.map-button:hover {
+	background: radial-gradient(#5F0000, #400000);
+
+}
+	
 
 
 
@@ -219,41 +237,6 @@ main {
 }
 
 
-
-/*
-.social-ul {
-	list-style-type: none;
-	padding: 0;
-	width: 100%;
-	margin-bottom: 5em;
-}
-.social-ul li {
-	display: inline-block;
-	width: 20%;
-	position: relative;
-}
-
-.fb {
-	position: relative;
-	left: 5%;
-}
-
-.tw {
-	position: relative;
-	left: 7%;
-}
-
-.goog {
-	position: relative;
-	left: 9%;
-}
-
-.in {
-	position: relative;
-	left: 11%;
-}
-
-*/
 footer {
 	clear: both;
 	list-style-type: none;
