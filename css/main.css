@@ -97,8 +97,6 @@ header {
 	text-align: center;
 	bottom: 0%;
 	width: 100%;
-	padding-left: 0;
-	padding-top: 1em;
 	padding: 1em 0;
 	margin: 0;
 	position: absolute;
@@ -108,13 +106,13 @@ header {
 
 h2 {
 	clear: both;
-	padding-left: 1em;
 	background: radial-gradient(#A00000, #5F0000);
 	color: white;
 	font-family: 'Laila' serif;
 	box-shadow: 0px 5px 15px black;
 	margin: 0;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .decor {
@@ -146,33 +144,55 @@ main {
 	clear: both;
 }
 
+.first-p {
+	margin: 2em 0 0.5em 0;
+}
+
+.location-p {
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 2em;
+}
 .map {
 	width: 100%;
 	margin-bottom: 1em;
 }
 
 .left-contact {
-	float: left;
-	clear: left;
-	font-weight: bold;
 	font-family: 'Laila' serif;
 }
 
 .right-contact {
 	float: right;
-	clear: right;
+}
+
+.email-p {
+	margin: 0;
 }
 
 footer {
 	clear: both;
 	list-style-type: none;
-	color: black;
+	color: white;
+	background-color: #A00000;
 }
 
-nav ul li {
+.footer-a {
 	color: Black;
 	display: inline-block;
 	width: 20%;
 	float: left;
 	text-align: center;
+	text-decoration: none;
+	margin: 0;
+}
+footer nav ul {
+	margin: 0;
+}
+footer nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 1em 0;
 }
