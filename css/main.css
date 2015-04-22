@@ -7,6 +7,13 @@ font-family: 'Laila', serif;
 */
 
 
+/*TO DO
+- Make sure the second span is needed on the content
+- 
+
+
+
+*/
 html {
 	box-sizing: border-box;
 	font-family: ''Open Sans', sans-serif;'
@@ -78,8 +85,6 @@ header {
 
 .top-a:hover {
 	background: radial-gradient(#5F0000, #400000);
-	/*transform: translateY(-5px);
-	box-shadow: 0 2px 5px black;*/
 }
 
 .banner-div {
@@ -154,6 +159,7 @@ main {
 	margin-bottom: 0;
 	margin-top: 2em;
 }
+
 .map {
 	width: 100%;
 	margin-bottom: 1em;
@@ -170,28 +176,48 @@ main {
 	margin: 0;
 }
 
+.social-ul {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 5em;
+}
+
+.social-ul li {
+	display: inline-block;
+	width: 25%;
+	padding: 0 2em;
+	float: left;
+}
+
 footer {
 	clear: both;
 	list-style-type: none;
 	color: white;
-	background-color: #A00000;
+	background: radial-gradient(#A00000, #5F0000);
 }
 
 .footer-a {
-	color: Black;
-	display: inline-block;
-	width: 20%;
-	float: left;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 	margin: 0;
+	width: 25%;
 }
+
 footer nav ul {
 	margin: 0;
+	padding-left: 0;
+	overflow: hidden;
+
 }
+
 footer nav ul li {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0;
 	padding: 1em 0;
+	width: 20%;
+	float: left;
+	text-align: center;
 }
