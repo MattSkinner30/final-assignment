@@ -116,11 +116,16 @@ h2 {
 	text-align: center;
 }
 
+.decor {
+	width: 80%;
+	margin: 0;
+	position: relative;
+	left: 10%;
+}
 
 .menu-img {
 	width: 100%;
 	border: 1px solid #5F0000;
-	border-radius: 1em;
 }
 
 figure {
@@ -130,10 +135,6 @@ figure {
 	position: relative;
 	left: 5%;
 	padding: 1em;
-	border: 2px solid #A00000;
-	margin-bottom: 1em;
-	border-radius: 1em;
-	background-color: #FFFFCC;
 }
 
 figcaption {
@@ -146,6 +147,11 @@ figcaption {
 
 main {
 	clear: both;
+}
+
+.map {
+	width: 100%;
+	margin-bottom: 1em;
 }
 
 .left-contact {
