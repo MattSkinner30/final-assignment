@@ -25,6 +25,7 @@ body {
 	background-color: #fffcdf;
 }
 
+
 h1 {
 	margin: 0;
 	color: white;
@@ -124,19 +125,20 @@ h2 {
 }
 
 .menu-img {
-	width: 100%;
+	width: 90%;
 	border: 1px solid #5F0000;
+	position: relative;
+	left: 5%;
 }
 
 .menu-p {
 	margin: 0;
-	padding: 0;
 	font-family: 'Laila', serif;
 }
 
 .menu-desc {
 	margin: 0;
-	padding: 0 0 1em 0;
+	padding-bottom: 2em;
 }
 
 
