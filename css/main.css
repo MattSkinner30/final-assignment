@@ -188,9 +188,26 @@ main {
 	list-style-type: none;
 	padding: 0;
 	width: 100%;
-	margin-bottom: 5em;
 }
 
+.social-ul li {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	position: relative;
+	padding: 1em;
+
+}
+
+
+
+/*
+.social-ul {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 5em;
+}
 .social-ul li {
 	display: inline-block;
 	width: 20%;
@@ -199,23 +216,25 @@ main {
 
 .fb {
 	position: relative;
-	left: 4%;
+	left: 5%;
 }
 
 .tw {
 	position: relative;
-	left: 8%;
+	left: 7%;
 }
 
 .goog {
 	position: relative;
-	left: 12%;
+	left: 9%;
 }
 
 .in {
 	position: relative;
-	left: 16%;
+	left: 11%;
 }
+
+*/
 footer {
 	clear: both;
 	list-style-type: none;
