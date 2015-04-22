@@ -162,9 +162,28 @@ main {
 
 .map {
 	width: 100%;
-	margin-bottom: 1em;
+	opacity: 0.6;
+	margin-bottom: -0.3em;
+	background-color: #A00000;
 }
 
+
+.map-a {
+
+}
+
+.map-div{
+	background-image: url("../images/map.jpg") no-repeat;
+	position: relative;
+}
+
+.map-div::before{
+	background-color: #A00000;
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
 
 
 
