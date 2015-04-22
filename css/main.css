@@ -165,6 +165,14 @@ main {
 	margin-bottom: 1em;
 }
 
+
+
+
+
+
+.contact-div {
+	position: relative;
+}
 .left-contact {
 	font-family: 'Laila' serif;
 }
@@ -185,11 +193,29 @@ main {
 
 .social-ul li {
 	display: inline-block;
-	width: 25%;
-	padding: 0 2em;
-	float: left;
+	width: 20%;
+	position: relative;
 }
 
+.fb {
+	position: relative;
+	left: 4%;
+}
+
+.tw {
+	position: relative;
+	left: 8%;
+}
+
+.goog {
+	position: relative;
+	left: 12%;
+}
+
+.in {
+	position: relative;
+	left: 16%;
+}
 footer {
 	clear: both;
 	list-style-type: none;
