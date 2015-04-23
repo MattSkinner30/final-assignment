@@ -208,12 +208,15 @@ main {
 .contact-div {
 	position: relative;
 }
+
+.contact-div a {
+	color: black;
+}
 .left-contact {
 	font-family: 'Laila', serif;
+	margin-right: 1em;
 }
 
-.right-contact {
-}
 
 .email-p {
 	margin: 0;
@@ -251,7 +254,7 @@ footer {
 }
 
 .social-ul img{
-	border-radius: 2em;
+	border-radius: 5em;
 }
 
 .social-ul img:hover {
