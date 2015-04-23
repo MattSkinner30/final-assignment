@@ -64,6 +64,7 @@ header {
 	margin: 0;
 	display: inline-block;
 	border: solid 1px black;
+	font-size: 100%;
 }
 
 
@@ -250,8 +251,4 @@ footer nav ul li {
 	width: 20%;
 	float: left;
 	text-align: center;
-}
-
-a {
-	font-size: 1rem;
 }
