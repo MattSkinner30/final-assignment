@@ -45,7 +45,7 @@ h1 {
 
 header {
 	background: radial-gradient(#A00000, #5F0000);
-	margin-bottom: 56px;
+	margin-bottom: 40px;
 }
 
 .top-nav {
@@ -76,7 +76,7 @@ header {
 	background: radial-gradient(#A00000, #5F0000);
 	margin: 0;
 	width: 100%;
-	padding: 1em 0;
+	padding: 0.5em 0;
 	margin: 0;
 	display: inline-block;
 	border: solid 1px black;
@@ -164,13 +164,8 @@ main {
 	width: 100%;
 	opacity: 0.6;
 	margin-bottom: -0.3em;
-	background-color: #A00000;
 }
 
-
-.map-a {
-
-}
 
 .map-div{
 	background-image: url("../images/map.jpg") no-repeat;
