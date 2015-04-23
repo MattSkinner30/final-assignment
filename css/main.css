@@ -1,19 +1,3 @@
-/* colours
-Red - #A00000		221, 73, 7
-Dark Red - #5F0000
-White BG - #fffcdf
-font-family: 'Open Sans', sans-serif;
-font-family: 'Laila', serif;
-*/
-
-
-/*TO DO
-- Make sure the second span is needed on the content
-- 
-
-
-
-*/
 html {
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
@@ -31,7 +15,6 @@ body {
 	margin: 0;
 	background-color: #fffcdf;
 }
-
 
 h1 {
 	margin: 0;
@@ -145,7 +128,6 @@ h2 {
 	padding: 0 1em 2em 2em;
 }
 
-
 main {
 	clear: both;
 }
@@ -166,7 +148,6 @@ main {
 	opacity: 0.6;
 	margin-bottom: -0.3em;
 }
-
 
 .map-div{
 	background-image: url("../images/map.jpg");
@@ -195,17 +176,12 @@ main {
 	bottom: 10%;
 	text-decoration: none;
 	box-shadow: 0px 5px 15px black;
-
-
 }
+
 .map-button:hover {
 	background: radial-gradient(#5F0000, #400000);
 }
 	
-
-
-
-
 .contact-div {
 	position: relative;
 }
@@ -217,7 +193,6 @@ main {
 	font-family: 'Laila', serif;
 	margin-right: 1em;
 }
-
 
 .email-p {
 	margin: 0;
@@ -235,9 +210,7 @@ main {
 	float: left;
 	position: relative;
 	padding: 1em;
-
 }
-
 
 footer {
 	clear: both;
@@ -261,14 +234,12 @@ footer {
 .social-ul img:hover {
 	box-shadow: 0px 5px 15px black;
 	transform: translate(0, -10px);
-
 }
 
 footer nav ul {
 	margin: 0;
 	padding-left: 0;
 	overflow: hidden;
-
 }
 
 footer nav ul li {
